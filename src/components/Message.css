@@ -1,0 +1,16 @@
+.message {
+    margin: 50px auto;
+    min-height: 100px;
+}
+
+h4 {
+    font-size: 25px;
+}
+
+span {
+    background: white;
+    color: #282c34;
+    font-size: 18px;
+    border-radius: 20px;
+    padding: 10px 25px;
+}
