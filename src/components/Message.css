@@ -1,0 +1,41 @@
+.list {
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+.message {
+    padding: 5px 15px;
+    border-radius: 10px;
+    color: white;
+    max-width: 250px;
+    margin: 5px 0;
+}
+
+.bot {
+    margin-left: 200px;   
+}
+
+.bot .message {
+    border: 1px solid #282c34;
+    background: #282c34;
+}
+
+.human .message {
+    border: 1px solid #1d64f1;
+    background: #1d64f1;    
+}
+
+h3 {
+    margin: 3px 10px;
+}
+
+p {
+    margin: 3px 5px;
+}
