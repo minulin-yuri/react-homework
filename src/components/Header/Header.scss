@@ -1,0 +1,27 @@
+nav {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: 70px;
+    margin: 0 auto;
+    width: 1040px;
+}
+
+.top-menu{
+    display: flex;
+    max-width: 200px;
+    justify-content: space-between;
+
+    &__link {
+        margin: 0 50px 0 0 !important;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+}
+
+.logo-wrapper {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 150px 0 0;
+  }
