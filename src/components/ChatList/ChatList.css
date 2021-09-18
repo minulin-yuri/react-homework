@@ -1,0 +1,26 @@
+.chats-list {
+  background: white;
+}
+
+.typography-header {
+  padding: 20px;
+  text-align: left;
+  font-size: 12px;
+  line-height: 11px;
+  text-transform: uppercase;
+}
+
+.list-item {
+  margin: 13px 0 !important;
+}
+
+.MuiListItemText-primary {
+  font-size: 14px;
+  line-height: 13px;
+}
+
+.MuiListItemText-secondary {
+  font-size: 10px !important;
+  line-height: 150%;
+}
+/*# sourceMappingURL=ChatList.css.map */

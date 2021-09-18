@@ -1,0 +1,24 @@
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  max-width: 1040px;
+  margin: 0 auto;
+}
+
+.content {
+  margin: 25px 50px;
+  background: white;
+  width: 640px;
+  padding: 25px 50px;
+}
+
+.content h2 {
+  padding: 0;
+  margin: 0;
+}
+/*# sourceMappingURL=Home.css.map */
