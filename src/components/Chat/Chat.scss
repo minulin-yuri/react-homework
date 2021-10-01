@@ -1,0 +1,117 @@
+  .chats-list {
+    background: white;
+  }
+  
+  .new-chat {
+    margin: 20px 0 0;
+    padding: 20px;
+    background: white;
+  }
+  
+  .messages {
+    max-width: 700px;
+    display: flex;
+    margin: 25px 0 25px 30px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: top;
+    background: white;
+    padding: 0;
+  }
+  
+  .message-list {
+    height: 491px;
+    overflow: auto;
+    margin: 0 0 20px;
+  }
+  
+  .typography-header {
+    padding: 20px;
+    text-align: left;
+    font-size: 12px;
+    line-height: 11px;
+    text-transform: uppercase;
+  }
+  
+  .MuiListItemText-primary  {
+    font-size: 14px;
+    line-height: 13px;
+  }
+  
+  .MuiListItemText-secondary {
+    font-size: 10px !important;
+    line-height: 150%;
+  }
+  
+  .MuiButton-label {
+    padding: 3px 25px;
+  }
+  
+  .chat-header {
+    padding: 20px;
+    text-align: left;
+    font-size: 12px;
+    line-height: 11px;
+    text-transform: uppercase;
+    color: black;
+  
+    & span {
+      color: #0275B1;
+    }
+  }
+  
+  .add-message {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-top: 1px solid #E5E5E5;
+  }
+  
+  button {
+    background:white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .new-message {
+    min-width: 75%;
+    min-height: 70px;
+    resize: none;
+    outline: none;
+    padding: 5px 20px;
+    border: none;
+  }
+  
+  .add-file:hover {
+    & svg g {
+      opacity: 0.75;
+  
+      & path {
+        stroke: #0275B1;
+      }
+    }
+  }
+  
+  .send-message {
+    width: 100px;
+    font-size: 21px;
+  }
+  
+  .App-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: top;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+
+  .chats-header {
+    color: black;
+    padding: 20px 20px !important;
+  }
+
+  .header{
+    padding: 0;
+  }
