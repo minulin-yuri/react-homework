@@ -1,0 +1,46 @@
+nav {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: 70px;
+    margin: 0 auto;
+    width: 100vw;
+    background: white;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1040px;
+    width: 100%;
+}
+
+.menu-container {
+    display: flex;
+    align-items: center;
+}
+
+.top-menu{
+    display: flex;
+    max-width: 200px;
+    justify-content: space-between;
+
+}
+
+.MuiLink-root {
+    text-decoration: none;
+}
+
+.top-menu__link {
+        margin: 0 50px 0 0 !important;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+.logo-wrapper {
+    height: 50px;
+    width: 300px;
+    background: url("../../logo.png") no-repeat;
+    background-size: contain;
+    background-position: left;
+    margin: 0 75px 0 0;
+  }

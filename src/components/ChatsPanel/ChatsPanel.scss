@@ -1,0 +1,87 @@
+.charts {
+    margin: 25px 0;
+  }
+  
+  .new-chat {
+    margin: 20px 0 0;
+    padding: 20px;
+    background: white;
+
+    &__btn {
+        width: 100%;
+    }
+  }
+
+  .chats-list {
+    background: white;
+}
+
+.MuiList-root {
+    height: 420px;
+    overflow: auto; 
+}
+
+.MuiListItemText-root {
+    min-width: 100px;
+}
+
+.MuiTypography-root {
+    font-size: 14px !important;
+}
+
+.typography-header {
+    padding: 20px;
+    text-align: left;
+    font-size: 12px;
+    line-height: 11px;
+    text-transform: uppercase;
+    color: #0077B5;
+}
+  
+.list-item {
+    display: flex;
+    align-items: center;
+    margin: 13px 0 !important;
+
+    a,
+    button {
+        opacity: 0;
+        margin: 0 5px 0 0;
+        max-width: 50px;
+        min-width: 0;
+        display: flex;
+        align-items: center;
+        border: none;
+        text-decoration: none;
+
+        &:last-child {
+            margin: 0;
+        }
+    }
+
+    button:last-child {
+        margin: 0;
+    }
+
+    &:hover {
+        background: #E9F0F8;
+
+        a, 
+        button {
+            opacity: 1;
+            background: none;
+        }
+    }
+}
+
+.MuiListItemText-primary  {
+    font-size: 14px;
+    line-height: 13px;
+  }
+  
+  .MuiListItemText-secondary {
+    font-size: 10px !important;
+    line-height: 150%;
+  }
+
+  

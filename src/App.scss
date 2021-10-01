@@ -1,0 +1,19 @@
+
+.App {
+  text-align: center;
+  background-color:  #E9F0F8;
+  display: flex;
+  justify-content: space-between;
+  font-family: Gotham Pro !important;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: top;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
