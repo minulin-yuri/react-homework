@@ -49,7 +49,6 @@ export default function Chat() {
      * Функция для добавления ответа на сообщение
      */
     useEffect(() => {
-        let timeout;
         const currentMessages = messages[chatId];
 
         //если сообщений до этого не было
@@ -57,19 +56,7 @@ export default function Chat() {
             //бот задает первым вопрос
             sendMessage('What can I help you?', AUTHORS.bot);
             return;
-        } else {
-
-            //если пользователь уже написал сообщение
-            if (!!chatId && currentMessages?.[currentMessages.length - 1].author === 'human') {
-                //бот отвечает через 1.5 сек
-                timeout = setTimeout(() => {
-                    sendMessage('Your request has been successfully sent!', AUTHORS.bot);
-
-                }, 1500);
-            }
         }
-
-        return () => clearTimeout(timeout);
 
     }, [messages, chatId]);
 

@@ -6,7 +6,6 @@ import ListItemAvatar from '@material-ui/core/ListItemAvatar';
 import Avatar from '@material-ui/core/Avatar';
 import MaterialIcon from 'material-icons-react';
 import { Button } from '@material-ui/core';
-import { Redirect } from 'react-router';
 import { Link } from 'react-router-dom';
 
 
